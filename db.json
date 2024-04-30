@@ -1,4 +1,53 @@
 {
-    "users": [],
-    "expenses": []
-}
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john@example.com",
+        "password": "password123",
+        "expenses": [
+          {
+            "id": 1,
+            "title": "Groceries",
+            "description": "Bought groceries for the week",
+            "amount": 50,
+            "category": "Groceries",
+            "date": "2022-04-30"
+          },
+          {
+            "id": 2,
+            "title": "Movie tickets",
+            "description": "Watched a movie with friends",
+            "amount": 25,
+            "category": "Entertainment",
+            "date": "2022-05-01"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "jane_doe",
+        "email": "jane@example.com",
+        "password": "password456",
+        "expenses": [
+          {
+            "id": 3,
+            "title": "Clothes",
+            "description": "Bought new clothes",
+            "amount": 100,
+            "category": "Fashion",
+            "date": "2022-05-02"
+          },
+          {
+            "id": 4,
+            "title": "Dinner",
+            "description": "Dinner with friends",
+            "amount": 40,
+            "category": "Food",
+            "date": "2022-05-03"
+          }
+        ]
+      }
+    ]
+  }
+  
